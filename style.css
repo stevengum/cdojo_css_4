@@ -1,0 +1,41 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+#header{
+  background-color: grey;
+  height: 88px;
+}
+  #header img{
+    align: right;
+    display:inline-block;
+    vertical-align: bottom;
+  }
+  #header h3{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 500px;
+    padding-bottom: 0px;
+  }
+    /*end of header*/
+#nav_bar{
+  display: inline-block;
+  border-top: solid 1px black;
+}
+  #nav_bar ul{
+
+  }
+  #nav_bar ul li{
+    color: grey;
+    display: inline-block;
+  }
+    /* end of nav_bar */
+#main_content{
+  
+}
+
+#img_holder{
+
+}
