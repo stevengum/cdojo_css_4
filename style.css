@@ -59,11 +59,11 @@
     border-top: solid 1px grey;
   }
   .subcontent p{
-    margin-top: 4px;
-    /*margin-left: 0px;
-    padding-right: 0px;
+    margin-top: 8px;
+    margin-left: 10px;
+    /*padding-right: 0px;
     padding-left: 0px;*/
-    width: 221px;
+    width: 200px;
     font-size: 10px;
   }
   .button{
@@ -74,10 +74,11 @@
     margin-top: 30px;
     margin-right: 10px;
     margin-bottom: 10px;
+    padding: 0px 4px 4px 1px;
     width: 80px;
   }
     .button p{
-      vertical-align: middle;
+      vertical-align: middle:
       font-size: 10px;
       font-weight: bold;
     }
