@@ -41,7 +41,7 @@
 }
 
 .subcontent{
-  display: inline-flex;
+  display: inline-block;
   margin: 4px;
   border: solid 2px black;
 }
@@ -50,17 +50,34 @@
     padding-left: 3px;
     padding-top: 3px;
     padding-bottom: 3px;
+    vertical-align: top;
+    width: 221px;
   }
   .subcontent img{
-
+    height: 101px;
+    width: 221px;
   }
   .subcontent p{
     align: center;
     margin-top: 4px;
     margin-left: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+    width: 221px;
+    font-size: 10px;
   }
   .button{
     background-color: yellow;
     border: solid 2px black;
     border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 80px;
   }
+    .button p{
+      vertical-align: middle;
+      font-size: 10px;
+      font-weight: bold;
+    }
