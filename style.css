@@ -5,8 +5,7 @@
 }
 
 #header{
-  background-color: grey;
-  height: 88px;
+  width: 1022px;
 }
   #header img{
     align: right;
@@ -15,14 +14,19 @@
   }
   #header h3{
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: middle;
+    margin-top: 20px;
     margin-left: 500px;
-    padding-bottom: 0px;
   }
     /*end of header*/
 #nav_bar{
+  width:1022px;
+  height: auto;
   display: inline-block;
   border-top: solid 1px black;
+  background-color: #CCC;
+  margin-bottom: 20px;
+  #
 }
   #nav_bar ul{
 
@@ -30,20 +34,91 @@
   #nav_bar ul li{
     color: grey;
     display: inline-block;
+    border-top: solid 1px black;
+    border-right: solid 1px black;
+    border-left:solid 1px black;
+    padding: 0px 10px 0px 10px;
   }
     /* end of nav_bar */
 #main_content{
-
+  background-color: black;
+  width: 982px;
+  padding: 10px 20px 1px 20px;
 }
 
 #img_holder{
-
+  display: inline-block;
+  /*vertical-align: top;*/
+  /*border: solid 2px white;*/
+  /*height: 300px*/
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 10px;
+  /*margin-bottom: 20px;*/
+}
+  #main_pic{
+    border: solid 4px white;
+  }
+  #img_holder h6{
+    display: inline-block;
+    font-size: 10px;
+    color: #eecb00;
+    font-weight: normal;
+  }
+#headline{
+  display: inline-block;
+  vertical-align: top;
+    /*temporary*/
+  /*margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 20px;*/
+  border: solid 1px black;
+  background-color: #BBBBBB;
+  padding-bottom: 20px;
+  margin-top: 5px;
+  width: 495px;
+  height: 242px;
 }
 
+  #headline h3{
+    background-color: #eecb00;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    border-bottom: solid 1px black
+  }
+  #headline h5{
+    color: white;
+    margin: 5px;
+    padding: 10px;
+  }
+  #headline p{
+    color: white;
+    /*margin: 5px;*/
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  #headline span{
+    font-weight: bold;
+  }
+#banner{
+  color: #eecb00;
+  /*background-color: blue;*/
+  width: 1012px;
+  margin-left: 10px;
+}
+  #banner img{
+    height: 10px;
+    display: inline-block;
+  }
+  #banner h5{
+    display: inline-block;
+  }
 .subcontent{
   display: inline-block;
   margin: 4px;
   border: solid 2px black;
+  background-color: white;
 }
   .subcontent h4{
     background-color: #eecb00;
@@ -59,11 +134,11 @@
     border-top: solid 1px grey;
   }
   .subcontent p{
-    margin-top: 4px;
-    /*margin-left: 0px;
-    padding-right: 0px;
+    margin-top: 8px;
+    margin-left: 10px;
+    /*padding-right: 0px;
     padding-left: 0px;*/
-    width: 221px;
+    width: 200px;
     font-size: 10px;
   }
   .button{
@@ -74,10 +149,11 @@
     margin-top: 30px;
     margin-right: 10px;
     margin-bottom: 10px;
+    padding: 0px 4px 4px 1px;
     width: 80px;
   }
     .button p{
-      vertical-align: middle;
+      vertical-align: middle:
       font-size: 10px;
       font-weight: bold;
     }
