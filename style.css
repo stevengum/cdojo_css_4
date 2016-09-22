@@ -33,9 +33,35 @@
   }
     /* end of nav_bar */
 #main_content{
-  
+  background-color: white;
 }
 
 #img_holder{
-
+  display: inline-block;
+  vertical-align: top;
+  border: solid 2px white;
+  width: 30%;     /*temporary*/
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 10px;
 }
+
+#headline{
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;    /*temporary*/
+  margin-top: 5px;
+  margin-right: 10px;
+}
+  #headline h3{
+    background-color: yellow;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+  }
+  #headline p{
+    color: white;
+  }
+  #headline span{
+    font-weight: bold;
+  }
