@@ -33,9 +33,34 @@
   }
     /* end of nav_bar */
 #main_content{
-  
+
 }
 
 #img_holder{
 
 }
+
+.subcontent{
+  display: inline-flex;
+  margin: 4px;
+  border: solid 2px black;
+}
+  .subcontent h4{
+    background-color: yellow;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  .subcontent img{
+
+  }
+  .subcontent p{
+    align: center;
+    margin-top: 4px;
+    margin-left: 4px;
+  }
+  .button{
+    background-color: yellow;
+    border: solid 2px black;
+    border-radius: 5px;
+  }
